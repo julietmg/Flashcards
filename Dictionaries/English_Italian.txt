@@ -1,0 +1,16 @@
+yes,si
+no,no
+here you are,prego
+hello,ciao
+good evening,buonasera
+I like,mi piace
+house,casa
+country,paese
+world,mondo
+city,citta
+road,strada
+square,piazza
+room,sala
+office,ufficio
+zone,zona
+island,isola

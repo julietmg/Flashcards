@@ -1,17 +1,11 @@
+import java.io.FileNotFoundException;
 import java.util.*;
 
 public class Main {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws FileNotFoundException {
 
-        HashMap<String, String> italianWords = new HashMap<>();
-
-        italianWords.put("Yes", "Si");
-        italianWords.put("No", "No");
-        italianWords.put("Here you are", "Prego");
-        italianWords.put("Hello", "Ciao");
-        italianWords.put("Good evening", "Buonasera");
-        italianWords.put("I like", "Mi piace");
+        Map<String, String> italianWords = DictionaryLoader.loadFromFile("Dictionaries/English_Italian.txt");
 
         ArrayList<String> activeCard = new ArrayList<String>(italianWords.keySet());
         String key = activeCard.get(new Random().nextInt(activeCard.size()));
@@ -24,13 +18,11 @@ public class Main {
             System.out.println("This answer is correct!");
         }
 
-        else { 
+        else {
 
-        System.out.println("Unfortunately, this answer isn't correct.");
+            System.out.println("Unfortunately, this answer isn't correct.");
 
         }
-
-        
 
     }
 
