@@ -21,6 +21,7 @@ public class Main {
         else {
 
             System.out.println("Unfortunately, this answer isn't correct.");
+            System.out.println("The correct answer was: " + italianWords.get(key) + ".");
 
         }
 
