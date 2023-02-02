@@ -24,8 +24,8 @@ public class DictionaryLoader {
                 }
             }
 
-            String key = line.substring(0, commaPosition);
-            String value = line.substring(commaPosition + 1, line.length());
+            String key = line.substring(0, commaPosition).strip();
+            String value = line.substring(commaPosition + 1, line.length()).strip();
 
             words.put(key, value);
 
