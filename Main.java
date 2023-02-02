@@ -7,7 +7,7 @@ public class Main {
 
         Map<String, String> italianWords = DictionaryLoader.loadFromFile("Dictionaries/English_Italian.txt");
 
-        String answer = "cat";
+        String answer = "cat"; 
 
         while (answer.isEmpty() == false) { 
 
