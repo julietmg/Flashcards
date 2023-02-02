@@ -7,24 +7,32 @@ public class Main {
 
         Map<String, String> italianWords = DictionaryLoader.loadFromFile("Dictionaries/English_Italian.txt");
 
+        String answer = "cat";
+
+        while (answer.isEmpty() == false) { 
+
         ArrayList<String> activeCard = new ArrayList<String>(italianWords.keySet());
         String key = activeCard.get(new Random().nextInt(activeCard.size()));
         System.out.println(key);
 
         System.out.println("What's the answer?");
-        String answer = System.console().readLine();
+        answer = System.console().readLine();
 
-        if (italianWords.get(key).equalsIgnoreCase(answer)) {
-            System.out.println("This answer is correct!");
-        }
+        
 
-        else {
+            if (italianWords.get(key).equalsIgnoreCase(answer)) {
+                System.out.println("This answer is correct!");
+            }
 
-            System.out.println("Unfortunately, this answer isn't correct.");
-            System.out.println("The correct answer was: " + italianWords.get(key) + ".");
+            else {
+
+                System.out.println("Unfortunately, this answer isn't correct.");
+                System.out.println("The correct answer was: " + italianWords.get(key) + ".");
+
+            }
 
         }
 
     }
 
-}
+    }
