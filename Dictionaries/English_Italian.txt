@@ -1,8 +1,3 @@
-yes,si
-no,no
-here you are,prego
-hello,ciao
-good evening,buonasera
 I like,mi piace
 house,casa
 country,paese
@@ -14,16 +9,4 @@ room,sala
 office,ufficio
 zone,zona
 island,isola
-man,uomo
-woman,donna
-father,padre
-mother,madre
-sister,sorella
-son,figlio
-daughter,figlia
-family,famiglia
-people,gente
-male friend,amico
-female friend,amica
-male enemy,nemico
-female enemy,nemica
+

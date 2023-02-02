@@ -1,0 +1,26 @@
+yes,si
+no,no
+here you are,prego
+hello,ciao
+good evening,buonasera
+please, per favore 
+thank you, grazie
+you’re welcome, prego 
+cheers, salute
+excuse me, scusi
+do you speak English?, parla Inglese?
+I don’t understand, non capisco 
+I’m sorry, mi dispiace
+man,uomo
+woman,donna
+father,padre
+mother,madre
+sister,sorella
+son,figlio
+daughter,figlia
+family,famiglia
+people,gente
+male friend,amico
+female friend,amica
+male enemy,nemico
+female enemy,nemica
